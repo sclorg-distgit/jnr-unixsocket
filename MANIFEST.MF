@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: jnr.unixsocket
+Export-Package: jnr.unixsocket;version="0.8.0"
+Bundle-Name: Java Native Runtime Unix Socket
+Bundle-Version: 0.8.0
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: Eclipse Orbit
+Import-Package: com.kenai.constantine.platform;version="0.8.6",com.ken
+ ai.jffi;version="1.2.7",jnr.constants.platform;version="0.8.6",jnr.en
+ xio.channels;version="0.6.0",jnr.ffi;version="2.0.1",jnr.ffi.annotati
+ ons;version="2.0.1",jnr.ffi.byref;version="2.0.1",jnr.ffi.mapper;vers
+ ion="2.0.1",jnr.ffi.provider.converters;version="2.0.1",jnr.ffi.provi
+ der.jffi;version="2.0.1",jnr.posix;version="3.0.9"
+
