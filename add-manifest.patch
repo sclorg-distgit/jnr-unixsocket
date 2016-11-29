@@ -1,0 +1,18 @@
+--- pom.xml.orig	2016-02-05 09:45:33.131937246 +0200
++++ pom.xml	2016-02-05 09:46:14.660841074 +0200
+@@ -80,6 +80,15 @@
+           <target>1.6</target>
+         </configuration>
+       </plugin>
++      <plugin>
++         <groupId>org.apache.maven.plugins</groupId>
++         <artifactId>maven-jar-plugin</artifactId>
++         <configuration>
++          <archive>
++            <manifestFile>MANIFEST.MF</manifestFile>
++          </archive>
++        </configuration>
++      </plugin>
+     </plugins>
+     <extensions>
+       <extension>
